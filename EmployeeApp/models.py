@@ -13,10 +13,3 @@ class Employees(models.Model):
     DateOfJoining = models.DateField()
     PhotoFileName = models.CharField(max_length=500)
 
-
-class vehiculo(model.Models):
-    VehiculoId = models.AutoField(primary_key=True)
-    VehiculoIdentificador = models.AutoField(primary_key=True)
-    VehiculoCaracteritica = models.CharField(max_length=500)
-    VehiculoNaional = models.CharField(max_length=500)
-    
